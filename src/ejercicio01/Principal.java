@@ -4,6 +4,29 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Principal {
+	
+	/*
+	 * PRUEBA 1
+	 * DATOS INTRODUCIDOS: 1, 2,5, 4
+	 * RESULTADO ESPERADO: 6,5
+	 * RESULTADO OBTENIDO: 6,5
+	 * 
+	 * PRUEBA 2
+	 * DATOS INTRODUCIDOS: 4, 8, 225
+	 * RESULTADO ESPERADO: 0.035555555555555556
+	 * RESULTADO OBTENIDO: 0.035555555555555556
+	 * 
+	 * PRUEBA 3
+	 * DATOS INTRODUCIDOS: 0, 12, 33
+	 * RESULTADO ESPERADO: ¡HASTA PRONTO!
+	 * RESULTADO OBTENIDO: ¡HASTA PRONTO!
+	 * 
+	 * PRUEBA 4
+	 * DATOS INTRODUCIDOS: 3, 122, 5
+	 * RESULTADO ESPERADO: 610
+	 * RESULTADO OBTENIDO: 610
+	 * */
+	
 
 	// Creamos un Scanner estático para que todas las funciones lo puedan usar
 	static Scanner sc = new Scanner(System.in);

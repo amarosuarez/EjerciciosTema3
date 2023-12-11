@@ -4,6 +4,23 @@ import java.util.Scanner;
 
 public class Principal {
 	
+	/*
+	 * PRUEBA 1
+	 * DATOS INTRODUCIDOS: 22, 4, 1
+	 * RESULTADO ESPERADO: 52
+	 * RESULTADO OBTENIDO: 52
+	 * 
+	 * PRUEBA 2
+	 * DATOS INTRODUCIDOS: 13, 122, 2
+	 * RESULTADO ESPERADO: 1586.0
+	 * RESULTADO OBTENIDO: 1586.0
+	 * 
+	 * PRUEBA 3
+	 * DATOS INTRODUCIDOS: 129, 12, 0
+	 * RESULTADO ESPERADO: ¡HASTA PRONTO!
+	 * RESULTADO OBTENIDO: ¡HASTA PRONTO!
+	 * */
+	
 	// Creamos el Scanner estático para poder usuarlo en las funciones
 	static Scanner sc = new Scanner(System.in);
 

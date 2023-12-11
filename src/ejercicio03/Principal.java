@@ -3,6 +3,23 @@ package ejercicio03;
 import java.util.Scanner;
 
 public class Principal {
+	
+	/*
+	 * PRUEBA 1
+	 * DATOS INTRODUCIDOS: 12, 0
+	 * RESULTADO ESPERADO: ¡HASTA PRONTO!
+	 * RESULTADO OBTENIDO: ¡HASTA PRONTO!
+	 * 
+	 * PRUEBA 2
+	 * DATOS INTRODUCIDOS: 87, 1
+	 * RESULTADO ESPERADO: 546.637121724624
+	 * RESULTADO OBTENIDO: 546.637121724624
+	 * 
+	 * PRUEBA 3
+	 * DATOS INTRODUCIDOS: 23, 2
+	 * RESULTADO ESPERADO: 1661.9025137490005
+	 * RESULTADO OBTENIDO: 1661.9025137490005
+	 * */
 
 	// Creamos el Scanner estático para poder usuarlo en las funciones
 	static Scanner sc = new Scanner(System.in);
