@@ -71,7 +71,6 @@ public class Principal {
 			case 0:
 				System.out.println("¡Hasta pronto!");
 				break;
-			
 		}
 
 		// Cerramos el Scanner
@@ -117,7 +116,6 @@ public class Principal {
 				num = sc.nextDouble(); 
 				// Asignamos el auxiliar a true para salir del bucle
 				numValido = true;
-
 			} catch (InputMismatchException e) {
 				// Mostramos el mensaje de que el dato es erróneo
 				System.out.println("Datos erróneos");
