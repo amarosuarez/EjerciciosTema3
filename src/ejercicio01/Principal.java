@@ -36,7 +36,8 @@ public class Principal {
 		int opcion;
 
 		// Variables donde se almacenarán los números
-		double num1, num2;
+		double num1;
+		double num2;
 
 		// Obtenemos la operación elegida del menú
 		opcion = menu();
