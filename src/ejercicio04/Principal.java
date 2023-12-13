@@ -67,14 +67,19 @@ public class Principal {
 		// Variable donde se almacenará la opción
 		int opcion;
 		
-		// Mostramos las opciones
-		System.out.println("¿Qué deseas hacer?\n"
-				+ "1. Volumen\n"
-				+ "2. Área\n"
-				+ "0. Salir");
-		
-		// Pedimos y guardamos la opción elegida
-		opcion = sc.nextInt();
+		// Pedimos mientras el número esté fuera del rango
+		do {
+			
+			// Mostramos las opciones
+			System.out.println("¿Qué deseas hacer?\n"
+					+ "1. Volumen\n"
+					+ "2. Área\n"
+					+ "0. Salir");
+			
+			// Pedimos y guardamos la opción elegida
+			opcion = sc.nextInt();
+			
+		} while (opcion < 0 || opcion > 2);
 		
 		// Devolvemos la opción elegida
 		return opcion;

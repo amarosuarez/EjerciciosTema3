@@ -66,14 +66,19 @@ public class Principal {
 		// Variable donde se almacenará la opción elegida
 		int opc;
 		
-		// Mostramos el menú con las diferentes opciones
-		System.out.println("El elige una opción\n"
-				+ "1. Perímetro\n"
-				+ "2. Área\n"
-				+ "0. Salir");
-		
-		// Leemos la opción elegida por el usuario
-		opc = sc.nextInt();
+		// Pedimos mientras el número este fuera del rango
+		do {
+			
+			// Mostramos el menú con las diferentes opciones
+			System.out.println("El elige una opción\n"
+					+ "1. Perímetro\n"
+					+ "2. Área\n"
+					+ "0. Salir");
+			
+			// Leemos la opción elegida por el usuario
+			opc = sc.nextInt();
+			
+		} while(opc < 0 || opc > 2);
 		
 		// Devolvemos la opción elegida
 		return opc;

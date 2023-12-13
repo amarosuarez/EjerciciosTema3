@@ -61,14 +61,20 @@ public class Principal {
 		// Variable donde se almacenará la opción elegida
 		int opcion;
 		
-		// Mostramos el mensaje con las opciones
-		System.out.println("¿Qué deseas en hacer?"
-				+ "\n1. Circunferencia"
-				+ "\n2. Área"
-				+ "\n0. Salir");
+		// Pedimos mientras el número esté fuera del rango
+		do {
+			
+			// Mostramos el mensaje con las opciones
+			System.out.println("¿Qué deseas en hacer?"
+					+ "\n1. Circunferencia"
+					+ "\n2. Área"
+					+ "\n0. Salir");
+			
+			// Leemos la opción introducida por el usuario y la almacenamos
+			opcion = sc.nextInt();
+			
+		} while(opcion < 0 || opcion > 2);
 		
-		// Leemos la opción introducida por el usuario y la almacenamos
-		opcion = sc.nextInt();
 		
 		// Devolvemos la opción
 		return opcion;

@@ -82,14 +82,19 @@ public class Principal {
 	public static int menu() {
 		// Creamos la variable donde se almacenará la opción elegida
 		int opcion = 0;
-
-		// Mostramos el mensaje con las opciones por pantalla 
-		System.out.println("Elige que operación deseas hacer:" + "\n1. Suma\n2. Resta\n3. Multiplicación"
-				+ "\n4. División\n5. Máximo\n6. Mínimo" + "\n0. Salir");
-
-		// Leemos la opción elegida por el usuario
-		opcion = sc.nextInt();
-
+		
+		// Pedimos mientras el número introducido este fuera del rango
+		do {
+			
+			// Mostramos el mensaje con las opciones por pantalla 
+			System.out.println("Elige que operación deseas hacer:" + "\n1. Suma\n2. Resta\n3. Multiplicación"
+					+ "\n4. División\n5. Máximo\n6. Mínimo" + "\n0. Salir");
+			
+			// Leemos la opción elegida por el usuario
+			opcion = sc.nextInt();
+			
+		} while (opcion < 0 || opcion > 6);
+		
 		// Devolvemos la opción elegida
 		return opcion;
 	}
